@@ -6,9 +6,11 @@
   },
   "plugins": ["@typescript-eslint", "react-hooks"],
   "extends": [
-    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
     "plugin:@typescript-eslint/recommended"
   ],
+
+
   "rules": {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
